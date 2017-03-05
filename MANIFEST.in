@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mittalapp *.css
+recursive-include mittalapp *.csv
+recursive-include mittalapp *.html
+recursive-include mittalapp *.ico
+recursive-include mittalapp *.js
+recursive-include mittalapp *.json
+recursive-include mittalapp *.md
+recursive-include mittalapp *.png
+recursive-include mittalapp *.py
+recursive-include mittalapp *.svg
+recursive-include mittalapp *.txt
+recursive-exclude mittalapp *.pyc
